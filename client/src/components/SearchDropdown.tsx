@@ -68,7 +68,7 @@ const App = () => {
   const inputRef = React.useRef(null);
 
   const dropdownStyle = {
-    position: "absolute",
+    position: "absolute" as React.CSSProperties["position"],
     zIndex: 1000,
     width: "100%",
     marginTop: "5px",

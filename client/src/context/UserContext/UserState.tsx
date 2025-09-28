@@ -1,7 +1,7 @@
 import { createContext, useReducer } from "react";
 import { type IProviderProps } from "../../domain/interfaces.js";
 import UserReducer, { type StateType, ACTION_TYPES } from "./UserReducer.ts";
-import { getProfile, searchUser } from "../../services/user.api.js";
+import { getProfile } from "../../services/user.api.js";
 
 const initialState: StateType = {
   users: [],
